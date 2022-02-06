@@ -163,7 +163,8 @@ namespace ZagLabProject
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(33, 79);
+
+            this.button15.Location = new System.Drawing.Point(33, 89);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 3;
