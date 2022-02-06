@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -72,6 +73,12 @@
     <Compile Include="Lab_1_part_1.Designer.cs">
       <DependentUpon>Lab_1_part_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab_2.Designer.cs">
+      <DependentUpon>Lab_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -91,7 +98,12 @@
     <EmbeddedResource Include="Lab_1_part_1.resx">
       <DependentUpon>Lab_1_part_1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab_2.resx">
+      <DependentUpon>Lab_2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Data_lab_2\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
