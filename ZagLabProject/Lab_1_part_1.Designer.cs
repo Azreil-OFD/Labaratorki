@@ -36,6 +36,7 @@ namespace ZagLabProject
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.button15 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
@@ -83,15 +84,14 @@ namespace ZagLabProject
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.bt1 = new System.Windows.Forms.Button();
-            this.bt2 = new System.Windows.Forms.Button();
-            this.bt3 = new System.Windows.Forms.Button();
-            this.bt4 = new System.Windows.Forms.Button();
-            this.bt5 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.bt5 = new System.Windows.Forms.Button();
+            this.bt4 = new System.Windows.Forms.Button();
+            this.bt3 = new System.Windows.Forms.Button();
+            this.bt2 = new System.Windows.Forms.Button();
+            this.bt1 = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox10.SuspendLayout();
@@ -142,6 +142,15 @@ namespace ZagLabProject
             this.tabPage1.Text = "1-10";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(816, 447);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(45, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "by Elnur";
+            // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.button15);
@@ -154,7 +163,7 @@ namespace ZagLabProject
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(33, 78);
+            this.button15.Location = new System.Drawing.Point(33, 89);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 3;
@@ -621,15 +630,6 @@ namespace ZagLabProject
             this.tabPage2.Text = "1-20";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(816, 447);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "by Elnur";
-            // 
             // groupBox11
             // 
             this.groupBox11.Controls.Add(this.button16);
@@ -645,45 +645,14 @@ namespace ZagLabProject
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Задание 11";
             // 
-            // bt1
+            // button16
             // 
-            this.bt1.Location = new System.Drawing.Point(16, 20);
-            this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(75, 23);
-            this.bt1.TabIndex = 0;
-            this.bt1.Text = "1";
-            this.bt1.UseVisualStyleBackColor = true;
-            this.bt1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
-            // 
-            // bt2
-            // 
-            this.bt2.Location = new System.Drawing.Point(16, 50);
-            this.bt2.Name = "bt2";
-            this.bt2.Size = new System.Drawing.Size(75, 23);
-            this.bt2.TabIndex = 1;
-            this.bt2.Text = "2";
-            this.bt2.UseVisualStyleBackColor = true;
-            this.bt2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
-            // 
-            // bt3
-            // 
-            this.bt3.Location = new System.Drawing.Point(16, 80);
-            this.bt3.Name = "bt3";
-            this.bt3.Size = new System.Drawing.Size(75, 23);
-            this.bt3.TabIndex = 2;
-            this.bt3.Text = "3";
-            this.bt3.UseVisualStyleBackColor = true;
-            this.bt3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
-            // 
-            // bt4
-            // 
-            this.bt4.Location = new System.Drawing.Point(16, 110);
-            this.bt4.Name = "bt4";
-            this.bt4.Size = new System.Drawing.Size(75, 23);
-            this.bt4.TabIndex = 3;
-            this.bt4.Text = "4";
-            this.bt4.UseVisualStyleBackColor = true;
-            this.bt4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
+            this.button16.Location = new System.Drawing.Point(16, 173);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 5;
+            this.button16.Text = "Заново";
+            this.button16.UseVisualStyleBackColor = true;
             // 
             // bt5
             // 
@@ -695,14 +664,45 @@ namespace ZagLabProject
             this.bt5.UseVisualStyleBackColor = true;
             this.bt5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
             // 
-            // button16
+            // bt4
             // 
-            this.button16.Location = new System.Drawing.Point(16, 173);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 5;
-            this.button16.Text = "Заново";
-            this.button16.UseVisualStyleBackColor = true;
+            this.bt4.Location = new System.Drawing.Point(16, 110);
+            this.bt4.Name = "bt4";
+            this.bt4.Size = new System.Drawing.Size(75, 23);
+            this.bt4.TabIndex = 3;
+            this.bt4.Text = "4";
+            this.bt4.UseVisualStyleBackColor = true;
+            this.bt4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
+            // 
+            // bt3
+            // 
+            this.bt3.Location = new System.Drawing.Point(16, 80);
+            this.bt3.Name = "bt3";
+            this.bt3.Size = new System.Drawing.Size(75, 23);
+            this.bt3.TabIndex = 2;
+            this.bt3.Text = "3";
+            this.bt3.UseVisualStyleBackColor = true;
+            this.bt3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
+            // 
+            // bt2
+            // 
+            this.bt2.Location = new System.Drawing.Point(16, 50);
+            this.bt2.Name = "bt2";
+            this.bt2.Size = new System.Drawing.Size(75, 23);
+            this.bt2.TabIndex = 1;
+            this.bt2.Text = "2";
+            this.bt2.UseVisualStyleBackColor = true;
+            this.bt2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
+            // 
+            // bt1
+            // 
+            this.bt1.Location = new System.Drawing.Point(16, 20);
+            this.bt1.Name = "bt1";
+            this.bt1.Size = new System.Drawing.Size(75, 23);
+            this.bt1.TabIndex = 0;
+            this.bt1.Text = "1";
+            this.bt1.UseVisualStyleBackColor = true;
+            this.bt1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button20_MouseClick);
             // 
             // Lab_1_part_1
             // 
